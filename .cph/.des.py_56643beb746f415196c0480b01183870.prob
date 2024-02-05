@@ -1,0 +1,1 @@
+{"name":"Local: des","url":"/Users/swarooplenka/Desktop/P_projects/nsc/des.py","tests":[{"id":1706079963932,"input":"1010000010\n10010111","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/swarooplenka/Desktop/P_projects/nsc/des.py","group":"local","local":true}

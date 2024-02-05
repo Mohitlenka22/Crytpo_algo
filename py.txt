@@ -1,0 +1,22 @@
+1. zip(*iterables, strict=False) --> Yield tuples until an input is exhausted.
+
+>>> list(zip('abcdefg', range(3), range(4)))
+[('a', 0, 0), ('b', 1, 1), ('c', 2, 2)]
+The zip object yields n-length tuples, where n is the number of iterables passed as positional arguments to zip(). The i-th element in every tuple comes from the i-th iterable argument to zip(). This continues until the shortest argument is exhausted.
+
+
+2.  The enumerate() function allows you to iterate over a list and keep track of the current index of each element. You can use this index to access the corresponding elements in the other lists.
+
+class enumerate(
+    iterable: Iterable,
+    start: int = ...
+)
+Return an enumerate object.
+
+  iterable
+    an object supporting iteration
+
+The enumerate object yields pairs containing a count (from start, which defaults to zero) and a value yielded by the iterable argument.
+
+enumerate is useful for obtaining an indexed list:
+    (0, seq[0]), (1, seq[1]), (2, seq[2]), ...

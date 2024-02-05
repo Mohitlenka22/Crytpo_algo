@@ -1,0 +1,1 @@
+{"name":"Local: caeser_cipher(2)","url":"/Users/swarooplenka/Desktop/P_projects/nsc/caeser_cipher(2).py","tests":[{"id":1702908875425,"input":"3\nmeet me after 3pm @Gvp","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/swarooplenka/Desktop/P_projects/nsc/caeser_cipher(2).py","group":"local","local":true}

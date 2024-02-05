@@ -1,0 +1,1 @@
+{"name":"Local: diffie-hellman-key","url":"/Users/swarooplenka/Desktop/P_projects/nsc/diffie-hellman-key.py","tests":[{"id":1706080812774,"input":"17\n5\n4\n6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/swarooplenka/Desktop/P_projects/nsc/diffie-hellman-key.py","group":"local","local":true}
