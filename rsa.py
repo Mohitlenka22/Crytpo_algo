@@ -37,6 +37,7 @@ def mod_inverse(a, m):
 def generate_keypair(p, q):
     n = p * q
     phi = (p - 1) * (q - 1)
+    print(phi)
     e = 2
     while gcd(e, phi) != 1:
         e += 1
