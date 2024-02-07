@@ -365,5 +365,58 @@
 # t = decrypt(en)
 # print(t)
 
+
 #  Miller rabin
 
+# import random
+
+
+# def rabin(n):
+#     if n <= 1 :
+#         return False
+#     if n == 2 or n == 3 :
+#         return True
+#     if n%2 == 0 :
+#         return False
+#     k, q = 0, n-1
+#     while q%2 == 0:
+#         k += 1
+#         q //= 2
+#     a = random.randint(2, n-2)
+#     x = pow(a, q, n)
+#     if x == 1 or x == n-1:
+#         return True
+#     for i in range(0, k-1):
+#         x = pow(x, 2, n)
+#         if x == n-1:
+#             return True
+#     return False
+
+# p = int(input())
+# print(rabin(p))
+
+
+# vernam cipher
+
+# plainText = input()
+# key = input()
+
+
+# def encrypt():
+#     cipher_ = [(ord(a)-ord('A')) ^ (ord(b)-ord('A'))
+#                for a, b in zip(plainText, key)]
+#     cipher = [chr(i % 26 + ord('A')) for i in cipher_]
+#     return cipher, cipher_
+
+# cipher, cipher_ = encrypt()
+# print("".join(cipher))
+
+
+# def decrypt():
+#     text_ = [a ^ (ord(b)-ord('A'))
+#              for a, b in zip(cipher_, key)]
+#     text = [chr(i % 26 + ord('A')) for i in text_]
+#     return text, text_
+
+# text, text_ = decrypt()
+# print("".join(text))
